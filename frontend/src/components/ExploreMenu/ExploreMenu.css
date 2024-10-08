@@ -1,0 +1,126 @@
+.explore-menu{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore-menu h1{
+    color: #ccc;
+    font-weight: 500;
+    font-size: 5vw;
+  
+}
+.explore-menu h1:before{
+    content: attr(data-text);
+position: absolute;
+top: 0;
+Left: 0;
+color: #262626;
+width: 50%;
+overflow: hidden;
+    }
+ .explore-menu h1:hover:before{
+cursor: pointer;
+    width: 100%;
+}
+.explore-menu-text{
+    max-width: 95%;
+    color: #808080;
+}
+.explore-menu-list{
+    display: flex;
+    padding-top: 4% ;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-item img{
+    width: 8.5vw;
+    min-width: 0px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+    transform: scale(0.9);
+    &:hover{
+        transform: scale(1);
+    }
+}
+.explore-menu-list-item .active{
+    height: 100%;
+    border: 4px solid #28a745;
+    box-shadow: 2px 1px 50px #28a745;
+    padding: 2px;
+}
+.explore-menu-list-item p{
+    margin-top: 10px;
+    color: #747474;
+    font-size: max(1.4vw,16px);
+    cursor: pointer;
+}
+.explore-menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #dbd403;
+    border: none;
+}
+.arrow-left,
+.arrow-right {
+width: 2.2rem;
+height: 2.2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+color:#6751b9;
+border-radius: 0.65rem;
+border: 1.5px solid #6751b9;
+position: absolute;
+top: 55%;
+z-index: 2;
+cursor: pointer;
+background:#130f2a;
+}
+.arrow-left span,
+.arrow-right span {
+
+font-size: 2rem;
+font-weight: 500;
+}
+.arrow-left{
+    left: -0.5rem;
+}
+.arrow-right{
+    right: -0.5rem;
+}
+@media (max-width:1025px){
+.arrow-left{
+    left: 0rem;
+}
+.arrow-right{
+    right: 0rem;
+}
+}
+@media(max-width:768px){
+     .experience-container h5{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+     }
+     .arrow-left{
+        left: -1rem;
+     }
+     .arrow-right{
+        right: -0.7rem;
+     }
+}
+@media (max-width:1050px) {
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
