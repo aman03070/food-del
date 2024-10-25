@@ -65,9 +65,12 @@
     background-color: #dbd403;
     border: none;
 }
-@media (max-width:1050px) {
+@media (max-width:1350px) {
     .header{
         height: 38vw;
+    }
+    .header .banner{
+            height: 38vw;
     }
     .header-contents{
         max-width: 45%;

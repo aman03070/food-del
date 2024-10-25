@@ -22,10 +22,10 @@ const BannerScrollEffect = () => {
 
   useEffect(() => {
     if (bannerRef.current) {
-      bannerRef.current.style.right = scrollY * 1 + 'px';
+      bannerRef.current.style.right = scrollY * 3 + 'px';
     }
     if (oneRef.current) {
-      oneRef.current.style.left = scrollY * 2 + 'px';
+      oneRef.current.style.left = scrollY * 1.5 + 'px';
     }
   }, [scrollY]);
     return (
@@ -39,7 +39,7 @@ const BannerScrollEffect = () => {
                 <p>Browse a variety of products from your favorite campus stores, including groceries, meals, stationery, and medical supplies. Our mission is to bring convenience to every corner of GLA University, delivering what you need right to your door, quickly and efficiently.</p>
                 <button><a href='#explore-menu'>View Menu</a></button>
             </div>
-            <hr />
+            
         </div>
     )
 }

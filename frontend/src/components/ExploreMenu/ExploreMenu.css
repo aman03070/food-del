@@ -5,23 +5,10 @@
     gap: 20px;
 }
 .explore-menu h1{
-    color: #ccc;
+    color: #000;
     font-weight: 500;
     font-size: 5vw;
   
-}
-.explore-menu h1:before{
-    content: attr(data-text);
-position: absolute;
-top: 0;
-Left: 0;
-color: #262626;
-width: 50%;
-overflow: hidden;
-    }
- .explore-menu h1:hover:before{
-cursor: pointer;
-    width: 100%;
 }
 .explore-menu-text{
     max-width: 95%;
@@ -121,6 +108,6 @@ font-weight: 500;
 @media (max-width:1050px) {
     .explore-menu-text{
         max-width: 100%;
-        font-size: 14px;
+        font-size: 12px;
     }
 }

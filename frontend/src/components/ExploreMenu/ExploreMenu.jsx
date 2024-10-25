@@ -20,7 +20,7 @@ const ExploreMenu = ({category,setCategory}) => {
   return (
     <div className='explore-menu' id='explore-menu'>
       
-      <h1 data-text='text'>Explore our menu</h1>
+      <h1>Explore our menu</h1>
       <p className='explore-menu-text'>Choose from over <b>50</b> products across <b>5+</b>categories, including groceries, meals, stationery, and medical supplies. We collaborate with <b>6+</b> campus shops to bring everything you need right to your doorstep.
 
 Our mission is to provide fast and reliable delivery to every corner of GLA University, ensuring you have what you need in <b>30 minutes or less.</b> With <b>24/7 availability</b>, your essentials are just a few clicks away.
