@@ -20,7 +20,7 @@
     padding: 10px;
     border: 1px solid #C5C5C5;
     border-radius: 4px;
-    outline-color: tomato;
+    outline-color: #28a745;
 }
 .place-order-left .multi-field{
     display: flex;
@@ -33,7 +33,7 @@
 .place-order-submit{
     margin-top: 50px;
     border: none;
-    background-color: tomato;
+    background-color: #28a745;
     color: white;
     padding: 12px 30px;
     border-radius: 4px;
@@ -53,7 +53,7 @@
     display: flex;
     align-items: center;
     gap: 10px ;
-    border: 1px solid tomato;
+    border: 1px solid #28a745;
     padding: 15px;
     border-radius: 4px;
     min-width: 300px;

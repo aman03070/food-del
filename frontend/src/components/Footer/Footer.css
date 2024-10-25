@@ -55,4 +55,8 @@
     .footer-copyright{
         text-align: center;
     }
+    .logo {
+        font-size: 23px;
+        width: 170px;
+    }
 }

@@ -129,7 +129,8 @@ position: relative;
 
 @media (max-width:900px) {
     .navbar .logo {
-        width: 120px;
+        font-size: 23px;
+        width: 170px;
     }
 
     .navbar-menu {

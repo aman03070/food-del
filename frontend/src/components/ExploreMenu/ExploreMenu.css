@@ -5,9 +5,9 @@
     gap: 20px;
 }
 .explore-menu h1{
-    color: #000;
+    color: #262626;
     font-weight: 500;
-    font-size: 5vw;
+    
   
 }
 .explore-menu-text{
@@ -30,7 +30,7 @@
 }
 .explore-menu-list-item img{
     width: 8.5vw;
-    min-width: 0px;
+    min-width: 70px;
     cursor: pointer;
     border-radius: 50%;
     transition: 0.2s;
@@ -48,66 +48,33 @@
 .explore-menu-list-item p{
     margin-top: 10px;
     color: #747474;
-    font-size: max(1.4vw,16px);
+    font-size: max(1.11vw);
     cursor: pointer;
 }
 .explore-menu hr{
-    margin: 10px 0px;
+    
     height: 2px;
     background-color: #dbd403;
     border: none;
 }
-.arrow-left,
-.arrow-right {
-width: 2.2rem;
-height: 2.2rem;
-display: flex;
-align-items: center;
-justify-content: center;
-color:#6751b9;
-border-radius: 0.65rem;
-border: 1.5px solid #6751b9;
-position: absolute;
-top: 55%;
-z-index: 2;
-cursor: pointer;
-background:#130f2a;
-}
-.arrow-left span,
-.arrow-right span {
-
-font-size: 2rem;
-font-weight: 500;
-}
-.arrow-left{
-    left: -0.5rem;
-}
-.arrow-right{
-    right: -0.5rem;
-}
-@media (max-width:1025px){
-.arrow-left{
-    left: 0rem;
-}
-.arrow-right{
-    right: 0rem;
-}
-}
-@media(max-width:768px){
-     .experience-container h5{
-        font-size: 1.3rem;
-        margin-bottom: 2rem;
-     }
-     .arrow-left{
-        left: -1rem;
-     }
-     .arrow-right{
-        right: -0.7rem;
-     }
+.small .small2{
+    margin-left: 95%;
+    margin-bottom: -90%;
+    font-size: 10px;
+justify-content: right;
 }
 @media (max-width:1050px) {
     .explore-menu-text{
         max-width: 100%;
         font-size: 12px;
+    }
+    .small .small{
+        margin-left: 90%;
+        margin-top: 3%;
+        font-size: 5px;
+    justify-content: right;
+    }
+    .explore-menu-list-item p{
+        font-size: max(2vw);
     }
 }

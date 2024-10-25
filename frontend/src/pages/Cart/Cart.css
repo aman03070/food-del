@@ -10,10 +10,10 @@
 
 .cart-items-title {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr 0.5fr;
     align-items: center;
     color: grey;
-    font-size: max(1vw, 12px);
+    font-size: max(1vw, 2px);
 }
 
 .cart-items-item {
@@ -62,13 +62,18 @@
 .cart-total button {
     border: none;
     color: white;
-    background-color: #FF4C24;
+    background-color: #28a745;
     width: max(15vw,200px);
     padding: 12px 0px;
     border-radius: 4px;
     cursor: pointer;
 }
-
+.cart-total button:hover{
+    transition: all 0.3s ease-out; 
+    background-color: transparent;
+    color: #28a745;
+    border: 0.1px solid #28a745;
+}
 .cart-promocode {
     flex: 1;
 }

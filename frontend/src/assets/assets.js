@@ -16,6 +16,7 @@ import menu_9 from './menu_9.png'
 import menu_10 from './menu_10.png'
 import menu_11 from './menu_11.png'
 import menu_12 from './menu_12.png'
+import menu_13 from './next.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -72,6 +73,7 @@ export const assets = {
     logo,
     banner_img,
     one_img,
+    menu_13,
     basket_icon,
     header_img,
     search_icon,
@@ -100,15 +102,19 @@ export const menu_list = [
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Fruits&JuiceCorner",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "TheGreenerSide",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "TheSouthIndianDelight",
+        menu_image: menu_4
+    },
+    {
+        menu_name: "TheFoodTales",
         menu_image: menu_4
     },
     {
@@ -120,7 +126,7 @@ export const menu_list = [
         menu_image: menu_10
     },
     {
-        menu_name: "Main Canteen",
+        menu_name: "MainCanteen",
         menu_image: menu_11
     },
     {

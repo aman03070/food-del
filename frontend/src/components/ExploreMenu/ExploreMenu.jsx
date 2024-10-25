@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import './ExploreMenu.css'
 import { StoreContext } from '../../Context/StoreContext'
+import { assets } from '../../assets/assets'
 
 export const CircleIndicator = () => {
   const { scrollYProgress } = useScroll()
@@ -32,9 +33,14 @@ Join <b>30+</b> satisfied students and experience the convenience of on-campus d
                 <div onClick={()=>setCategory(prev=>prev===item.menu_name?"All":item.menu_name)} key={index} className='explore-menu-list-item'>  
                     <img src={item.menu_image} className={category===item.menu_name?"active":""} alt="" />
                     <p>{item.menu_name}</p>
+                    
                 </div>
+                
             )
         })}
+      </div>
+      <div className="small">
+      <p className='small2'>Shift+Scroll</p>
       </div>
       <hr />
     </div>
