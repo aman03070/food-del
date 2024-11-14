@@ -115,7 +115,7 @@ export const menu_list = [
     },
     {
         menu_name: "TheFoodTales",
-        menu_image: menu_4
+        menu_image: menu_5
     },
     {
         menu_name: "Stationery&Gift",

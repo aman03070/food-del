@@ -13,11 +13,9 @@ const PlaceOrder = () => {
         firstName: "",
         lastName: "",
         email: "",
-        street: "",
-        city: "",
-        state: "",
-        zipcode: "",
-        country: "",
+        block: "",
+        room: "",
+        floor: "",
         phone: ""
     })
 
@@ -89,14 +87,10 @@ const PlaceOrder = () => {
                     <input type="text" name='lastName' onChange={onChangeHandler} value={data.lastName} placeholder='Last name' required />
                 </div>
                 <input type="email" name='email' onChange={onChangeHandler} value={data.email} placeholder='Email address' required />
-                <input type="text" name='street' onChange={onChangeHandler} value={data.street} placeholder='Street' required />
+                <input type="text" name='block' onChange={onChangeHandler} value={data.block} placeholder='Block/Building Name' required />
                 <div className="multi-field">
-                    <input type="text" name='city' onChange={onChangeHandler} value={data.city} placeholder='City' required />
-                    <input type="text" name='state' onChange={onChangeHandler} value={data.state} placeholder='State' required />
-                </div>
-                <div className="multi-field">
-                    <input type="text" name='zipcode' onChange={onChangeHandler} value={data.zipcode} placeholder='Zip code' required />
-                    <input type="text" name='country' onChange={onChangeHandler} value={data.country} placeholder='Country' required />
+                    <input type="text" name='room' onChange={onChangeHandler} value={data.room} placeholder='Room No.' required />
+                    <input type="text" name='floor' onChange={onChangeHandler} value={data.floor} placeholder='Floor No.' required />
                 </div>
                 <input type="text" name='phone' onChange={onChangeHandler} value={data.phone} placeholder='Phone' required />
             </div>
@@ -116,10 +110,6 @@ const PlaceOrder = () => {
                     <div onClick={() => setPayment("cod")} className="payment-option">
                         <img src={payment === "cod" ? assets.checked : assets.un_checked} alt="" />
                         <p>COD ( Cash on delivery )</p>
-                    </div>
-                    <div onClick={() => setPayment("stripe")} className="payment-option">
-                        <img src={payment === "stripe" ? assets.checked : assets.un_checked} alt="" />
-                        <p>Stripe ( Credit / Debit )</p>
                     </div>
                 </div>
                 <button className='place-order-submit' type='submit'>{payment==="cod"?"Place Order":"Proceed To Payment"}</button>
