@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
         <h1 className='logo'>GLA Connect.</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Welcome to GLA Connect., your trusted partner for fast and delicious food delivery. We connect you with campus local restaurants, offering a wide variety of cuisines to satisfy every craving. Enjoy hassle ordering, real-time tracking, and quick delivery right to your doorstep. Your satisfaction is our priority, with dedicated support ensuring a delightful experience every time!</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
@@ -27,8 +27,8 @@ const Footer = () => {
         <div className="footer-content-right">
             <h2>GET IN TOUCH</h2>
             <ul>
-                <li>+1-212-456-7890</li>
-                <li>contact@tomato.com</li>
+                <li>+91 9634574011</li>
+                <li>27ankit03@gmail.com</li>
             </ul>
         </div>
       </div>
